@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/msm8960-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/motorola/msm8960-common/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/motorola/msm8960-common/proprietary/bin/enc_mgt_tool:system/bin/enc_mgt_tool \
     vendor/motorola/msm8960-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/motorola/msm8960-common/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/msm8960-common/proprietary/bin/ftmipcd:system/bin/ftmipcd \
@@ -95,8 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/motorola/msm8960-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/motorola/msm8960-common/proprietary/lib/libcurl.so:system/lib/libcurl.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libdataencrypt_openssl.so:system/lib/libdataencrypt_openssl.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libdataencrypt_utils.so:system/lib/libdataencrypt_utils.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/motorola/msm8960-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
