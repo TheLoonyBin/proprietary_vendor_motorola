@@ -97,7 +97,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/motorola/msm8960-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
+    vendor/motorola/msm8960-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+    vendor/motorola/msm8960-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdss.so:system/lib/libdss.so \
