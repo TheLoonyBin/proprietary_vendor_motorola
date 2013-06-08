@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/motorola/msm8960-common/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/motorola/msm8960-common/proprietary/lib/libAKM.so:system/lib/libAKM.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libapnjni.so:system/lib/libapnjni.so \
     vendor/motorola/msm8960-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/motorola/msm8960-common/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/msm8960-common/proprietary/lib/libbson.so:system/lib/libbson.so \
@@ -114,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/motorola/msm8960-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/motorola/msm8960-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libimssettings.so:system/lib/libimssettings.so \
     vendor/motorola/msm8960-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/msm8960-common/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/motorola/msm8960-common/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
