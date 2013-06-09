@@ -65,10 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/motorola/msm8960-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/motorola/msm8960-common/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/motorola/msm8960-common/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/motorola/msm8960-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -109,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libnativedrm1.so:system/lib/libnativedrm1.so \
     vendor/motorola/msm8960-common/proprietary/lib/libnative_renderer.so:system/lib/libnative_renderer.so \
     vendor/motorola/msm8960-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
     vendor/motorola/msm8960-common/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/motorola/msm8960-common/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
     vendor/motorola/msm8960-common/proprietary/lib/libopenssl-smime.so:system/lib/libopenssl-smime.so \
