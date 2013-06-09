@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/msm8960-common/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/msm8960-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/motorola/msm8960-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/motorola/msm8960-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/motorola/msm8960-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/msm8960-common/proprietary/bin/nl_listener:system/bin/nl_listener \
