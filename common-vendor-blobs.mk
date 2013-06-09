@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/motorola/msm8960-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/motorola/msm8960-common/proprietary/bin/whisperd:system/bin/whisperd \
-    vendor/motorola/msm8960-common/proprietary/bin/wiperiface_v02:system/bin/wiperiface_v02 \
     vendor/motorola/msm8960-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/msm8960-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/motorola/msm8960-common/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
@@ -169,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/motorola/msm8960-common/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
     vendor/motorola/msm8960-common/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwiperjni_v02.so:system/lib/libwiperjni_v02.so \
     vendor/motorola/msm8960-common/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/motorola/msm8960-common/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
     vendor/motorola/msm8960-common/proprietary/lib/libxtwifi_ulp_adaptor.so:system/lib/libxtwifi_ulp_adaptor.so \
