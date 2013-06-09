@@ -44,13 +44,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/msm8960-common/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/msm8960-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/motorola/msm8960-common/proprietary/bin/sapd:system/bin/sapd \
     vendor/motorola/msm8960-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/msm8960-common/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/msm8960-common/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
     vendor/motorola/msm8960-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/motorola/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-    vendor/motorola/msm8960-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/motorola/msm8960-common/proprietary/bin/whisperd:system/bin/whisperd \
     vendor/motorola/msm8960-common/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/motorola/msm8960-common/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
@@ -67,16 +65,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/motorola/msm8960-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/motorola/msm8960-common/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libbson.so:system/lib/libbson.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libbt-aptx-4.0.4.so:system/lib/libbt-aptx-4.0.4.so \
     vendor/motorola/msm8960-common/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/motorola/msm8960-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/motorola/msm8960-common/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/motorola/msm8960-common/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
+    vendor/motorola/msm8960-common/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/motorola/msm8960-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/motorola/msm8960-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
