@@ -44,8 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/msm8960-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/msm8960-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/motorola/msm8960-common/proprietary/bin/tcmd:system/bin/tcmd \
-    vendor/motorola/msm8960-common/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
     vendor/motorola/msm8960-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/motorola/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/motorola/msm8960-common/proprietary/bin/whisperd:system/bin/whisperd \
@@ -125,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/motorola/msm8960-common/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
     vendor/motorola/msm8960-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libtcmdcameraservice.so:system/lib/libtcmdcameraservice.so \
     vendor/motorola/msm8960-common/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
     vendor/motorola/msm8960-common/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
     vendor/motorola/msm8960-common/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
