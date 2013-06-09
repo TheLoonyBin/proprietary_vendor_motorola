@@ -50,8 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/motorola/msm8960-common/proprietary/bin/qosmgr:system/bin/qosmgr \
     vendor/motorola/msm8960-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/motorola/msm8960-common/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/motorola/msm8960-common/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/motorola/msm8960-common/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/msm8960-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/msm8960-common/proprietary/bin/sapd:system/bin/sapd \
@@ -73,9 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/motorola/msm8960-common/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/motorola/msm8960-common/proprietary/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
-    vendor/motorola/msm8960-common/proprietary/etc/ecryptfs.tab:system/etc/ecryptfs.tab \
-    vendor/motorola/msm8960-common/proprietary/etc/encrypt.tab:system/etc/encrypt.tab \
-    vendor/motorola/msm8960-common/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/motorola/msm8960-common/proprietary/etc/thermald.conf:system/etc/thermald.conf \
     vendor/motorola/msm8960-common/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/motorola/msm8960-common/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
@@ -150,8 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/motorola/msm8960-common/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/msm8960-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
     vendor/motorola/msm8960-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/motorola/msm8960-common/proprietary/lib/libsarqmictrl.so:system/lib/libsarqmictrl.so \
     vendor/motorola/msm8960-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
