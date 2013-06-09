@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/motorola/msm8960-common/proprietary/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/motorola/msm8960-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/motorola/msm8960-common/proprietary/lib/libgps.so:system/lib/libgps.so \
@@ -95,9 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/motorola/msm8960-common/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
     vendor/motorola/msm8960-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libmmwfdinterface.so:system/lib/libmmwfdinterface.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libmmwfdsinkinterface.so:system/lib/libmmwfdsinkinterface.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libmmwfdsrcinterface.so:system/lib/libmmwfdsrcinterface.so \
     vendor/motorola/msm8960-common/proprietary/lib/libmotdrm1.so:system/lib/libmotdrm1.so \
     vendor/motorola/msm8960-common/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/msm8960-common/proprietary/lib/libmoto_netutil.so:system/lib/libmoto_netutil.so \
@@ -133,17 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libtexture_mem.so:system/lib/libtexture_mem.so \
     vendor/motorola/msm8960-common/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/msm8960-common/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfdhdcpcp.so:system/lib/libwfdhdcpcp.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfdmmutils.so:system/lib/libwfdmmutils.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
     vendor/motorola/msm8960-common/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/motorola/msm8960-common/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/motorola/msm8960-common/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
