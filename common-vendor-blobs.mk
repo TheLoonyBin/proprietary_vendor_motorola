@@ -59,8 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/msm8960-common/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
     vendor/motorola/msm8960-common/proprietary/bin/thermald:system/bin/thermald \
-    vendor/motorola/msm8960-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/motorola/msm8960-common/proprietary/bin/timedexec:system/bin/timedexec \
     vendor/motorola/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/motorola/msm8960-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/motorola/msm8960-common/proprietary/bin/whisperd:system/bin/whisperd \
