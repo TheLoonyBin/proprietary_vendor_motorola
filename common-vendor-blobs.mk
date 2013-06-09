@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/msm8960-common/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/msm8960-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/motorola/msm8960-common/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/motorola/msm8960-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/motorola/msm8960-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/motorola/msm8960-common/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -53,8 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/motorola/msm8960-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/motorola/msm8960-common/proprietary/bin/whisperd:system/bin/whisperd \
-    vendor/motorola/msm8960-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/motorola/msm8960-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/motorola/msm8960-common/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/motorola/msm8960-common/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/motorola/msm8960-common/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -64,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/motorola/msm8960-common/proprietary/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
     vendor/motorola/msm8960-common/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-    vendor/motorola/msm8960-common/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/motorola/msm8960-common/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/msm8960-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/motorola/msm8960-common/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
@@ -146,8 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libtexture_mem.so:system/lib/libtexture_mem.so \
     vendor/motorola/msm8960-common/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/msm8960-common/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libulp.so:system/lib/libulp.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libulp2.so:system/lib/libulp2.so \
     vendor/motorola/msm8960-common/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
     vendor/motorola/msm8960-common/proprietary/lib/libwfdhdcpcp.so:system/lib/libwfdhdcpcp.so \
     vendor/motorola/msm8960-common/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
@@ -162,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/motorola/msm8960-common/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/motorola/msm8960-common/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libxtwifi_ulp_adaptor.so:system/lib/libxtwifi_ulp_adaptor.so \
     vendor/motorola/msm8960-common/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
     vendor/motorola/msm8960-common/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/motorola/msm8960-common/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
