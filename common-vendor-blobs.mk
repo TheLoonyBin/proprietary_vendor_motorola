@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/curl:system/bin/curl \
     vendor/motorola/msm8960-common/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/msm8960-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/motorola/msm8960-common/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/motorola/msm8960-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/motorola/msm8960-common/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/msm8960-common/proprietary/bin/ftmipcd:system/bin/ftmipcd \
