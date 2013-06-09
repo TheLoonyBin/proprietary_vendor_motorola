@@ -117,8 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/motorola/msm8960-common/proprietary/lib/libsensorhub_jni.so:system/lib/libsensorhub_jni.so \
     vendor/motorola/msm8960-common/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libtpa.so:system/lib/libtpa.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/msm8960-common/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/motorola/msm8960-common/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
     vendor/motorola/msm8960-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
