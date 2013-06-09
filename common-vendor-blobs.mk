@@ -25,14 +25,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/msm8960-common/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
-    vendor/motorola/msm8960-common/proprietary/bin/batch:system/bin/batch \
     vendor/motorola/msm8960-common/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/motorola/msm8960-common/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/motorola/msm8960-common/proprietary/bin/cnd:system/bin/cnd \
-    vendor/motorola/msm8960-common/proprietary/bin/curl:system/bin/curl \
     vendor/motorola/msm8960-common/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/msm8960-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/motorola/msm8960-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/motorola/msm8960-common/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/msm8960-common/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/msm8960-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -42,12 +38,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/msm8960-common/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/motorola/msm8960-common/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/motorola/msm8960-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/msm8960-common/proprietary/bin/qdumpd:system/bin/qdumpd \
     vendor/motorola/msm8960-common/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/msm8960-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/motorola/msm8960-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/motorola/msm8960-common/proprietary/bin/qosmgr:system/bin/qosmgr \
     vendor/motorola/msm8960-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/msm8960-common/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/msm8960-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -84,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/motorola/msm8960-common/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/motorola/msm8960-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/motorola/msm8960-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/motorola/msm8960-common/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
