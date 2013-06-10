@@ -108,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960-common/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/motorola/msm8960-common/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/motorola/msm8960-common/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
-    vendor/motorola/msm8960-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/motorola/msm8960-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/motorola/msm8960-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/motorola/msm8960-common/proprietary/lib/libsarqmictrl.so:system/lib/libsarqmictrl.so \
