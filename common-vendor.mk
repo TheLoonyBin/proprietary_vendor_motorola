@@ -18,3 +18,4 @@
 
 $(call inherit-product, vendor/motorola/msm8960-common/common-vendor-blobs.mk)
 $(call inherit-product, vendor/motorola/msm8960-common/vendor-adreno-blobs.mk)
+$(call inherit-product, vendor/motorola/msm8960-common/vendor-mako-blobs.mk)

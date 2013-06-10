@@ -1,6 +1,6 @@
 LOCAL_PATH:=vendor/motorola/msm8960-common/Adreno200-AU_LINUX_ANDROID_JB_VANILLA_04.02.02.060.053/system
 
-#adreno
+# Adreno blobs from QDevNet
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/gpu_dcvsd:/system/bin/gpu_dcvsd \
 	$(LOCAL_PATH)/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -27,4 +27,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	$(LOCAL_PATH)/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	$(LOCAL_PATH)/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-	$(LOCAL_PATH)/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
+	$(LOCAL_PATH)/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so
