@@ -20,13 +20,17 @@ $(call inherit-product, vendor/motorola/msm8226-common/msm8226-common-vendor-blo
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    com.qualcomm.location \
+    qcrilmsgtunnel \
     TimeService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
+    imslibrary \
     qcnvitems \
     qcrilhook
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
+    libHevcSwDecoder \
     libtime_genoff
