@@ -29,4 +29,8 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/motorola/shamu/overlay
 
+# For qcom time daemon.
+PRODUCT_COPY_FILES := \
+    vendor/motorola/shamu/proprietary/vendor/lib/libtime_genoff.so:/obj/lib/libtime_genoff.so
+
 $(call inherit-product, vendor/motorola/shamu/shamu-vendor-blobs.mk)
