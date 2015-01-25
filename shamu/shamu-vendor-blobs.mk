@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+    vendor/motorola/shamu/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
     vendor/motorola/shamu/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/shamu/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/motorola/shamu/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -96,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/motorola/shamu/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/motorola/shamu/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+    vendor/motorola/shamu/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     vendor/motorola/shamu/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/motorola/shamu/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/motorola/shamu/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
@@ -386,4 +388,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_itit_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_itit_1_0.raw \
     vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw \
     vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw
+    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw \
+    vendor/motorola/shamu/proprietary/priv-app/TriggerEnroll/TriggerEnroll.apk:system/priv-app/TriggerEnroll/TriggerEnroll.apk \
+    vendor/motorola/shamu/proprietary/priv-app/TriggerTrainingService/TriggerTrainingService.apk:system/priv-app/TriggerTrainingService/TriggerTrainingService.apk
+
