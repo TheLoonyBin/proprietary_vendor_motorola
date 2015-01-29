@@ -34,3 +34,8 @@ PRODUCT_COPY_FILES := \
 DEVICE_PACKAGE_OVERLAYS := vendor/motorola/shamu/overlay
 
 $(call inherit-product, vendor/motorola/shamu/shamu-vendor-blobs.mk)
+
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+    TriggerEnroll \
+    TriggerTrainingService

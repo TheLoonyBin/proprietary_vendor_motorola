@@ -64,6 +64,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+    vendor/motorola/shamu/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
+    vendor/motorola/shamu/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     vendor/motorola/shamu/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/shamu/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/motorola/shamu/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -387,3 +389,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw \
     vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw \
     vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw
+
