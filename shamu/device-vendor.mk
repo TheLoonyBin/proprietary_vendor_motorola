@@ -26,6 +26,15 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     librs_jni
 
+# Prebuilt jars
+PRODUCT_PACKAGES += \
+    org.simalliance.openmobileapi
+
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+    TriggerEnroll \
+    TriggerTrainingService
+
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
@@ -34,3 +43,4 @@ PRODUCT_COPY_FILES := \
 DEVICE_PACKAGE_OVERLAYS := vendor/motorola/shamu/overlay
 
 $(call inherit-product, vendor/motorola/shamu/shamu-vendor-blobs.mk)
+
