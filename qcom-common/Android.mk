@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter moto_msm8960 moto_msm8960_jbbl,$(TARGET_DEVICE)),)
+ifneq ($(filter mb886 moto_msm8960 moto_msm8960_jbbl xt897 xt897c xt907 xt925 xt926 xt925_jbbl,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
 

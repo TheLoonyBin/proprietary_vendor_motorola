@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,6 +17,10 @@
 # Pick up overlay for features that depend on non-open-source files
 
 $(call inherit-product, vendor/motorola/qcom-common/qcom-common-vendor-blobs.mk)
+
+# Prebuilt APKs
+PRODUCT_PACKAGES += \
+    TimeService
 
 # Prebuilt libs needed for compilation
 PRODUCT_PACKAGES += \
