@@ -419,6 +419,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/surnia/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so\
 	vendor/motorola/surnia/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so\
 	vendor/motorola/surnia/proprietary/lib/libril.so:system/lib/libril.so\
+	vendor/motorola/surnia/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
 	vendor/motorola/surnia/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar\
 	vendor/motorola/surnia/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar\
 	vendor/motorola/surnia/proprietary/etc/sap.conf:system/etc/sap.conf\
