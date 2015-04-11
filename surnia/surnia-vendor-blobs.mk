@@ -500,4 +500,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/bin/thermal-engine:system/bin/thermal-engine\
 	vendor/motorola/surnia/proprietary/bin/location-mq:system/bin/location-mq\
 	vendor/motorola/surnia/proprietary/bin/fmconfig:system/bin/fmconfig\
-	vendor/motorola/surnia/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon
+	vendor/motorola/surnia/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+	vendor/motorola/surnia/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	vendor/motorola/surnia/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so
