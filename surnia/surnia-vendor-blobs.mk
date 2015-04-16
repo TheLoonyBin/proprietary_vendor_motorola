@@ -504,5 +504,9 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/motorola/surnia/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
 	vendor/motorola/surnia/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
-	vendor/motorola/surnia/proprietary/lib/libloc_core.so:system/proprietary/lib/libloc_core.so
+	vendor/motorola/surnia/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+	vendor/motorola/surnia/proprietary/bin/stml0xx:system/bin/stml0xx \
+	vendor/motorola/surnia/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+	vendor/motorola/surnia/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so
+
 
