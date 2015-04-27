@@ -441,7 +441,7 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw\
 	vendor/motorola/surnia/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin\
 	vendor/motorola/surnia/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw\
-	vendor/motorola/surnia/proprietary/etc/firmware/synaptics-boe-s2316-14120501-175833-surnia.tdat:system/etc/firmware/synaptics-boe-s2316-14120501-175833-surnia.tdat\
+	vendor/motorola/surnia/proprietary/etc/firmware/synaptics-boe-s2316b-15031101-175833-surnia.tdat:system/etc/firmware/synaptics-boe-s2316b-15031101-175833-surnia.tdat\
 	vendor/motorola/surnia/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin\
 	vendor/motorola/surnia/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini\
 	vendor/motorola/surnia/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin\
@@ -453,7 +453,7 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw\
 	vendor/motorola/surnia/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw\
 	vendor/motorola/surnia/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw\
-	vendor/motorola/surnia/proprietary/etc/firmware/synaptics-inx-s2316-14120502-175833-surnia.tdat:system/etc/firmware/synaptics-inx-s2316-14120502-175833-surnia.tdat\
+	vendor/motorola/surnia/proprietary/etc/firmware/synaptics-inx-s2316i-15031102-175833-surnia.tdat:system/etc/firmware/synaptics-inx-s2316i-15031102-175833-surnia.tdat\
 	vendor/motorola/surnia/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw\
 	vendor/motorola/surnia/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt\
 	vendor/motorola/surnia/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn\
