@@ -90,7 +90,7 @@ PRODUCT_COPY_FILES += \
     
     #Qualcomm vendor firmware
     PRODUCT_COPY_FILES += \
-    vendor/moto/shamu/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw:qcom \
+    vendor/motorola/shamu/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw:qcom \
     vendor/motorola/shamu/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw:qcom \
     vendor/motorola/shamu/vendor/firmware/adsp.b00:system/vendor/firmware/adsp.b00:qcom \
     vendor/motorola/shamu/vendor/firmware/adsp.b01:system/vendor/firmware/adsp.b01:qcom \
