@@ -132,11 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so:qcom \
     vendor/motorola/shamu/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so:qcom \
     vendor/motorola/shamu/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so:qcom 
-
-    #qcom time daemon
-    PRODUCT_COPY_FILES := \
-    vendor/motorola/shamu/vendor/lib/libtime_genoff.so:/obj/lib/libtime_genoff.so
-
+    
     #qcom vendor/lib/hw
     PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/vendor/lib/hw/activity_recognition.msm8084.so:system/vendor/lib/hw/activity_recognition.msm8084.so:qcom \
