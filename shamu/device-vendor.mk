@@ -54,5 +54,9 @@ LOCAL_STEM := vendor/motorola/shamu/device-partial.mk
     TriggerTrainingService \
     MotoSignatureApp \
     BuaContactAdapter \
+
+# For qcom time daemon.
+    PRODUCT_COPY_FILES += \
+    vendor/motorola/shamu/vendor/lib/libtime_genoff.so:/obj/lib/libtime_genoff.so
     
 $(call inherit-product, vendor/motorola/shamu/device-partial.mk)
