@@ -501,16 +501,12 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/bin/location-mq:system/bin/location-mq\
 	vendor/motorola/surnia/proprietary/bin/fmconfig:system/bin/fmconfig\
 	vendor/motorola/surnia/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-	vendor/motorola/surnia/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/motorola/surnia/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
 	vendor/motorola/surnia/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
-	vendor/motorola/surnia/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
 	vendor/motorola/surnia/proprietary/bin/stml0xx:system/bin/stml0xx \
 	vendor/motorola/surnia/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	vendor/motorola/surnia/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
 	vendor/motorola/surnia/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
 	vendor/motorola/surnia/proprietary/bin/garden_app:system/bin/garden_app \
-	vendor/motorola/surnia/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-	vendor/motorola/surnia/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-	vendor/motorola/surnia/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
+	vendor/motorola/surnia/proprietary/bin/loc_launcher:system/bin/loc_launcher
 
