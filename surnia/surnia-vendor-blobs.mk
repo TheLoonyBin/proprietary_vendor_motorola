@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-	vendor/motorola/surnia/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_preview.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
@@ -172,7 +171,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_p5v18g_default_video_hd.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so\
@@ -216,7 +214,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_common.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_preview.so:system/vendor/lib/libchromatix_ov8858_q8v19w_preview.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camcorder.so:system/vendor/lib/libactuator_dw9714_q13n04a_camcorder.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so\
@@ -239,7 +236,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_gps_garden.so:system/vendor/lib/mmi_gps_garden.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:system/vendor/lib/libchromatix_ov2680_5987fhq_common.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so\
@@ -247,7 +243,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so\
@@ -442,7 +437,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin\
 	vendor/motorola/surnia/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw\
 	vendor/motorola/surnia/proprietary/etc/firmware/synaptics-boe-s2316b-15031101-175833-surnia.tdat:system/etc/firmware/synaptics-boe-s2316b-15031101-175833-surnia.tdat\
-	vendor/motorola/surnia/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin\
 	vendor/motorola/surnia/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini\
 	vendor/motorola/surnia/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin\
 	vendor/motorola/surnia/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat\
@@ -457,18 +451,14 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw\
 	vendor/motorola/surnia/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt\
 	vendor/motorola/surnia/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn\
-	vendor/motorola/surnia/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin\
 	vendor/motorola/surnia/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02\
 	vendor/motorola/surnia/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04\
 	vendor/motorola/surnia/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin\
 	vendor/motorola/surnia/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw\
-	vendor/motorola/surnia/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin\
 	vendor/motorola/surnia/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01\
 	vendor/motorola/surnia/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03\
 	vendor/motorola/surnia/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw\
 	vendor/motorola/surnia/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw\
-	vendor/motorola/surnia/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin\
-	vendor/motorola/surnia/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin\
 	vendor/motorola/surnia/proprietary/bin/rfs_access:system/bin/rfs_access\
 	vendor/motorola/surnia/proprietary/bin/time_daemon:system/bin/time_daemon\
 	vendor/motorola/surnia/proprietary/bin/mbm_spy:system/bin/mbm_spy\
