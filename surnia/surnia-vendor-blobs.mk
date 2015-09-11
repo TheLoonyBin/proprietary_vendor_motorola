@@ -16,26 +16,20 @@
 
 #Prebuilt libraries that are needed to build open-source libraries
 
-PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/motorola/surnia/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/surnia/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/surnia/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
     vendor/motorola/surnia/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/surnia/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/surnia/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
-    vendor/motorola/surnia/proprietary/bin/dropboxd:system/bin/dropboxd \
     vendor/motorola/surnia/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/surnia/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/motorola/surnia/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/motorola/surnia/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/surnia/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/surnia/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/surnia/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/surnia/proprietary/bin/kpgather:system/bin/kpgather \
-    vendor/motorola/surnia/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/motorola/surnia/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/motorola/surnia/proprietary/bin/mbm_spy:system/bin/mbm_spy \
-    vendor/motorola/surnia/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/motorola/surnia/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/surnia/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/surnia/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
@@ -46,8 +40,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/bin/ATFWD-daemon:system
     vendor/motorola/surnia/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/surnia/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/surnia/proprietary/bin/stml0xx:system/bin/stml0xx \
-    vendor/motorola/surnia/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
-    vendor/motorola/surnia/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/surnia/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/surnia/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/surnia/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
