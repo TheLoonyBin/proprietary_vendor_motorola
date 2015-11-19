@@ -224,6 +224,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     com.qualcomm.location \
     com.qualcomm.services.location \
+    TimeService \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook \
