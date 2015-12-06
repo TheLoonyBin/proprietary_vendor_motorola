@@ -227,7 +227,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook \
-    libHevcSwDecoder
+    qcrilhook
 
 $(call inherit-product, vendor/motorola/msm8226-common/msm8226-common-vendor-blobs.mk)
