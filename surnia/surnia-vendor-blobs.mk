@@ -17,6 +17,7 @@
 #Prebuilt libraries that are needed to build open-source libraries
 
 PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/surnia/proprietary/bin/apanic_annotate.sh:system/bin/apanic_annotate.sh \
     vendor/motorola/surnia/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/surnia/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
     vendor/motorola/surnia/proprietary/bin/batt_health:system/bin/batt_health \
