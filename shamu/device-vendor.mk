@@ -19,6 +19,7 @@ $(call inherit-product, vendor/motorola/shamu/shamu-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
+	DMAgent \
     DMConfigUpdate \
     HiddenMenu \
     ims \

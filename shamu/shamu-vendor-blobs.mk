@@ -19,6 +19,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/motorola/shamu/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/motorola/shamu/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
+    vendor/motorola/shamu/proprietary/lib/libradio.so:system/lib/libradio.so \
+    vendor/motorola/shamu/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so \
+    vendor/motorola/shamu/proprietary/lib/libradioservice.so:system/lib/libradioservice.so \
+    vendor/motorola/shamu/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/motorola/shamu/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/motorola/shamu/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/motorola/shamu/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/motorola/shamu/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/shamu/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     vendor/motorola/shamu/proprietary/lib/libadspd.so:system/lib/libadspd.so \
@@ -86,41 +93,41 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/vendor/firmware/right.boost.voice.config:system/vendor/firmware/right.boost.voice.config \
     vendor/motorola/shamu/proprietary/vendor/firmware/right.boost.voice.eq:system/vendor/firmware/right.boost.voice.eq \
     vendor/motorola/shamu/proprietary/vendor/firmware/right.boost_voice_table.preset:system/vendor/firmware/right.boost_voice_table.preset \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw:system/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw:system/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:system/vendor/moto/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_en_us_mfcc_16k_15_big_250_v5_1_1.raw:system/vendor/moto/audiomonitor/sensory/nn_en_us_mfcc_16k_15_big_250_v5_1_1.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_es_es_mfcc_16k_15_big_250_v1_5.raw:system/vendor/moto/audiomonitor/sensory/nn_es_es_mfcc_16k_15_big_250_v1_5.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_es_us_mfcc_16k_15_big_250_v1_5.raw:system/vendor/moto/audiomonitor/sensory/nn_es_us_mfcc_16k_15_big_250_v1_5.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_fr_ca_mfcc_16k_15_big_250_v2_5.raw:system/vendor/moto/audiomonitor/sensory/nn_fr_ca_mfcc_16k_15_big_250_v2_5.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_fr_fr_mfcc_16k_15_big_250_v2_4.raw:system/vendor/moto/audiomonitor/sensory/nn_fr_fr_mfcc_16k_15_big_250_v2_4.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_it_mfcc_16k_15_big_250_v3_5.raw:system/vendor/moto/audiomonitor/sensory/nn_it_mfcc_16k_15_big_250_v3_5.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_pt_mfcc_16k_15_big_250_v1_1.raw:system/vendor/moto/audiomonitor/sensory/nn_pt_mfcc_16k_15_big_250_v1_1.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/phonemesearch_dede_1_1.raw:system/vendor/moto/audiomonitor/sensory/phonemesearch_dede_1_1.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/phonemesearch_enuk_1_1.raw:system/vendor/moto/audiomonitor/sensory/phonemesearch_enuk_1_1.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/phonemesearch_enus_2_0.raw:system/vendor/moto/audiomonitor/sensory/phonemesearch_enus_2_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/phonemesearch_eses_1_2.raw:system/vendor/moto/audiomonitor/sensory/phonemesearch_eses_1_2.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/phonemesearch_esus_1_2.raw:system/vendor/moto/audiomonitor/sensory/phonemesearch_esus_1_2.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/phonemesearch_frca_prec1_1_0.raw:system/vendor/moto/audiomonitor/sensory/phonemesearch_frca_prec1_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/phonemesearch_frfr_1_1.raw:system/vendor/moto/audiomonitor/sensory/phonemesearch_frfr_1_1.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/phonemesearch_it_it_1_0.raw:system/vendor/moto/audiomonitor/sensory/phonemesearch_it_it_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/phonemesearch_ptbr_1_0.raw:system/vendor/moto/audiomonitor/sensory/phonemesearch_ptbr_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_dede_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_dede_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_enuk_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_enuk_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_enus_2_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_enus_2_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_eses_1_2.raw:system/vendor/moto/audiomonitor/sensory/svsid_eses_1_2.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_esus_1_2.raw:system/vendor/moto/audiomonitor/sensory/svsid_esus_1_2.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_frca_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_frca_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_frfr_1_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_frfr_1_1.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_it_it_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_it_it_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_ptbr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_ptbr_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_dede_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_dede_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_enuk_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_enuk_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_eses_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_eses_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_itit_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_itit_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw \
-    vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/lts_en_us_9_5_2b.raw:system/vendor/motorola/audiomonitor/sensory/lts_en_us_9_5_2b.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw:system/vendor/motorola/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:system/vendor/motorola/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/nn_en_us_mfcc_16k_15_big_250_v5_1_1.raw:system/vendor/motorola/audiomonitor/sensory/nn_en_us_mfcc_16k_15_big_250_v5_1_1.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/nn_es_es_mfcc_16k_15_big_250_v1_5.raw:system/vendor/motorola/audiomonitor/sensory/nn_es_es_mfcc_16k_15_big_250_v1_5.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/nn_es_us_mfcc_16k_15_big_250_v1_5.raw:system/vendor/motorola/audiomonitor/sensory/nn_es_us_mfcc_16k_15_big_250_v1_5.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/nn_fr_ca_mfcc_16k_15_big_250_v2_5.raw:system/vendor/motorola/audiomonitor/sensory/nn_fr_ca_mfcc_16k_15_big_250_v2_5.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/nn_fr_fr_mfcc_16k_15_big_250_v2_4.raw:system/vendor/motorola/audiomonitor/sensory/nn_fr_fr_mfcc_16k_15_big_250_v2_4.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/nn_it_mfcc_16k_15_big_250_v3_5.raw:system/vendor/motorola/audiomonitor/sensory/nn_it_mfcc_16k_15_big_250_v3_5.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/nn_pt_mfcc_16k_15_big_250_v1_1.raw:system/vendor/motorola/audiomonitor/sensory/nn_pt_mfcc_16k_15_big_250_v1_1.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/phonemesearch_dede_1_1.raw:system/vendor/motorola/audiomonitor/sensory/phonemesearch_dede_1_1.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/phonemesearch_enuk_1_1.raw:system/vendor/motorola/audiomonitor/sensory/phonemesearch_enuk_1_1.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/phonemesearch_enus_2_0.raw:system/vendor/motorola/audiomonitor/sensory/phonemesearch_enus_2_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/phonemesearch_eses_1_2.raw:system/vendor/motorola/audiomonitor/sensory/phonemesearch_eses_1_2.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/phonemesearch_esus_1_2.raw:system/vendor/motorola/audiomonitor/sensory/phonemesearch_esus_1_2.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/phonemesearch_frca_prec1_1_0.raw:system/vendor/motorola/audiomonitor/sensory/phonemesearch_frca_prec1_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/phonemesearch_frfr_1_1.raw:system/vendor/motorola/audiomonitor/sensory/phonemesearch_frfr_1_1.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/phonemesearch_it_it_1_0.raw:system/vendor/motorola/audiomonitor/sensory/phonemesearch_it_it_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/phonemesearch_ptbr_1_0.raw:system/vendor/motorola/audiomonitor/sensory/phonemesearch_ptbr_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_dede_1_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_dede_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_enuk_1_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_enuk_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_enus_2_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_enus_2_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_eses_1_2.raw:system/vendor/motorola/audiomonitor/sensory/svsid_eses_1_2.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_esus_1_2.raw:system/vendor/motorola/audiomonitor/sensory/svsid_esus_1_2.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_frca_1_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_frca_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_frfr_1_1.raw:system/vendor/motorola/audiomonitor/sensory/svsid_frfr_1_1.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_it_it_1_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_it_it_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_ptbr_1_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_ptbr_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_triggerogn1_dede_1_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_triggerogn1_dede_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_triggerogn1_enuk_1_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_triggerogn1_enuk_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_triggerogn1_eses_1_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_triggerogn1_eses_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_triggerogn1_itit_1_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_triggerogn1_itit_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw:system/vendor/motorola/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:system/vendor/motorola/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw \
+    vendor/motorola/shamu/proprietary/vendor/motorola/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/motorola/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw \
     vendor/motorola/shamu/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/shamu/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libactuator_lc898122_camcorder.so:system/vendor/lib/libactuator_lc898122_camcorder.so \
@@ -257,6 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/etc/diag/voice-call-min-log.cfg:system/etc/diag/voice-call-min-log.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/audio_voice_apr.cfg:system/etc/diag/mdm/audio_voice_apr.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/audio_voice_apr.cfg:system/etc/diag/audio_voice_apr.cfg \
+	vendor/motorola/shamu/proprietary/etc/ril/qcril.db:system/etc/ril/qcril.db \
     vendor/motorola/shamu/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/shamu/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/shamu/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -393,6 +401,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/motorola/shamu/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/motorola/shamu/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+	vendor/motorola/shamu/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/motorola/shamu/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
     vendor/motorola/shamu/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
     vendor/motorola/shamu/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
@@ -417,6 +426,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+	vendor/motorola/shamu/proprietary/etc/init/rild.rc:system/etc/init/rild.rc \
     vendor/motorola/shamu/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
     vendor/motorola/shamu/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
     vendor/motorola/shamu/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
