@@ -90,6 +90,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := DMService
+LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := DMService/DMService.apk
 LOCAL_CERTIFICATE := platform
