@@ -907,5 +907,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     izat.xt.srv \
     qti-telephony-common \
-    libtime_genoff
+    libtime_genoff \
+    atfwd
 
